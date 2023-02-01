@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.login{
+  width:100%;
+  min-height:80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logininputs{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+input{
+  padding: 10px;
+  width:300px;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+.button1{
+
+  color: white;
+  padding: 10px;
+  width:80px;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+small{
+  color: red;
+}
+.navbar{
+  width: 100%;
+  height:10vh;
+  background: rgb(11, 127, 243);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer{
+  width: 100%;
+  height:10vh;
+  background: lightslategray;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booklist{
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  transition: all 0.3s ease;
+  padding: 50px;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+.bookposter{
+  margin: 0x 10px;
+  
+}
+
+.bookdetails{
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
+
+.book{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button{
+  padding: 10px;
+  background: black;
+  color: whitesmoke;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.favorites{
+  min-height: 80vh;
+  width: 100px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  justify-items: center;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  display:inline;
+}
